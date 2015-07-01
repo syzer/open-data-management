@@ -5,17 +5,21 @@ plaing with `dat`
 `data-editor`
 is cool tool if you do not have excel
 
+also it can handle bloobs/images/cats
+![blob](https://raw.github.com/syzer/open-data-management/master/after-seralizarion.png)
+
 ```bash
 
 dat init
 
+node municipalities.js
 dat import people.json --key=name -d people
 
 npm install -g dat
 npm install -g picture-tube
 
 
-wget http://pngimg.com/upload/cat_PNG115.png
+wget http://cat.url/cat.png
 
 
 dat write cat.png --name=alice -d people
