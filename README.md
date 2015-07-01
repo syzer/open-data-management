@@ -12,7 +12,7 @@ also it can handle bloobs/images/cats
 
 dat init
 
-node municipalities.js
+node municipalities.js > cantons.json
 dat import people.json --key=name -d people
 
 npm install -g dat
